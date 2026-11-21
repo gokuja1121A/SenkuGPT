@@ -39,7 +39,7 @@ jobs:
           "$SDKMANAGER" "platforms;android-35" "build-tools;35.0.0"
 
       - name: Extract project
-        run: unzip -q SenkuGPT_V1_Android_Studio_Project.zip
+        run: unzip -q SenkuGPT_V1.1_Android_Studio_Project.zip
 
       - name: Build APK
         working-directory: SenkuGPT_V1
